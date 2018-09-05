@@ -1,6 +1,6 @@
 def soma(a,b=None):
 	if b==None:
-                b=a
+                b=0
 	
 	if is_number(a) and is_number(b)==True:
 		return float(a)+float(b)
